@@ -14,7 +14,6 @@ public class Hoofdscherm extends JFrame implements ActionListener {
         setTitle("Hoofdscherm");
         setSize(1500,800);
         setLayout(null);
-        setVisible(true);
 
         JTextArea graphic = new JTextArea("Graphic shit");
         graphic.setBounds(100,50,1300,350);
@@ -60,6 +59,9 @@ public class Hoofdscherm extends JFrame implements ActionListener {
         fout.setBounds(1000, 520, 200, 35);
         fout.setBorder(BorderFactory.createLineBorder(Color.gray));
         add(fout);
+
+        setVisible(true);
+
     }
 
     @Override

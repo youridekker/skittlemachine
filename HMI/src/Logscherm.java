@@ -1,5 +1,3 @@
-import org.jdesktop.swingx.autocomplete.AutoCompleteDecorator;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -41,7 +39,6 @@ public class Logscherm extends JDialog implements ActionListener {
 
         zoek = new JComboBox(new Object[]{"","Ester", "Jordi",
                 "Jordina", "Jorge", "Sergi"});
-        AutoCompleteDecorator.decorate(zoek);
         zoek.setBounds(650, 150, 200, 35);
         zoek.setRenderer(dlcr);
         add(zoek);
