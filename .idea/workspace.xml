@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3890a49-a697-4294-90a8-bb3c55a3fbbe" name="Default" comment="" />
+    <list default="true" id="707b6c5e-2125-4f6c-b1d1-65ce326924c8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/HMI.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/out/production/HMI/DatabaseConnection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/out/production/HMI/Hoofdscherm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/out/production/HMI/Logscherm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/out/production/HMI/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/out/production/HMI/Sorteerscherm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/src/Bakje.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/src/DatabaseConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/src/Hoofdscherm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/src/Logscherm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/src/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/src/Sorteerscherm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HMI/src/Test.java" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -9,6 +27,12 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -20,6 +44,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="415" />
+    <option name="y" value="42" />
+    <option name="width" value="1065" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -36,26 +66,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="HMI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HMI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HMI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HMI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="skittlemachine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,17 +193,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f3890a49-a697-4294-90a8-bb3c55a3fbbe" name="Default" comment="" />
-      <created>1524744202114</created>
+      <changelist id="707b6c5e-2125-4f6c-b1d1-65ce326924c8" name="Default" comment="" />
+      <created>1524744134941</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1524744202114</updated>
-      <workItem from="1524744203451" duration="27000" />
+      <updated>1524744134941</updated>
+      <workItem from="1524744137612" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27000" />
+    <option name="totallyTimeSpent" value="35000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="415" y="42" width="1065" height="955" extended-state="0" />
@@ -191,7 +216,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -220,6 +245,16 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/skittlemachine.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
