@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HMI.iml" filepath="$PROJECT_DIR$/HMI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skittlemachine.iml" filepath="$PROJECT_DIR$/skittlemachine.iml" />
     </modules>
   </component>
 </project>

@@ -1,11 +1,7 @@
 import javax.swing.*;
-import java.sql.SQLException;
 
-public class Main {
-
-    public static void main(String[]args) throws ClassNotFoundException, SQLException, InstantiationException, IllegalAccessException {
-
-
+public class main {
+    public static void main(String[] args) {
         Hoofdscherm h1 = new Hoofdscherm();
         h1.setLocationRelativeTo(null);
         h1.setVisible(true);
@@ -13,9 +9,4 @@ public class Main {
         h1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
-
-
-
-
-    }
-
+}
