@@ -150,8 +150,7 @@ public class Sorteerscherm extends JDialog implements ActionListener {
             String kleurBakje2 = getJCkleurBakje2();
             String melding = "";
 
-            Bakje b1 = new Bakje(kleurBakje1,Integer.parseInt(aantalBakje1),1,0);
-            Bakje b2 = new Bakje(kleurBakje2, Integer.parseInt(aantalBakje2),2,0);
+
 
             if (!totaal.equals("") && !aantalBakje1.equals("") && !aantalBakje2.equals("")) {
 
@@ -189,6 +188,7 @@ public class Sorteerscherm extends JDialog implements ActionListener {
             }else{
                 isOk = true;
             }
+            setVisible(false);
 
 
 

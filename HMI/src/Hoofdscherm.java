@@ -4,6 +4,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.EventQueue;
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class Hoofdscherm extends JFrame implements ActionListener {
@@ -28,10 +29,16 @@ public class Hoofdscherm extends JFrame implements ActionListener {
             setLayout(null);
             setVisible(true);
 
-            JTextArea graphic = new JTextArea("Graphic shit"); // Hier komt een grafische representatie van het huidige proces.
-            graphic.setBounds(100, 50, 1300, 350);
-            graphic.setBorder(BorderFactory.createLineBorder(Color.gray));
-            add(graphic);
+            Panel p1 = new Panel();
+            p1.setSize(1300, 350);
+
+            p1.setBounds(100, 50, 1300,350);
+
+            add(p1);
+            //JTextArea graphic = new JTextArea("Graphic shit"); // Hier komt een grafische representatie van het huidige proces.
+            //graphic.setBounds(100, 50, 1300, 350);
+            //graphic.setBorder(BorderFactory.createLineBorder(Color.gray));
+            //add(graphic);
 
 
             instellingenHuidig = new JTextArea(); // Hier staan de gegevens van het huidige sorteerproces.
@@ -111,7 +118,20 @@ public class Hoofdscherm extends JFrame implements ActionListener {
             }
 
             if (e.getSource() == log) { // Dit gebeurt er als er op de log knop wordt gedrukt.
-                Logscherm l1 = new Logscherm(this);
+                Logscherm l1 = null;
+
+                try {
+                    l1 = new Logscherm(this);
+                } catch (ClassNotFoundException e1) {
+                    e1.printStackTrace();
+                } catch (SQLException e1) {
+                    e1.printStackTrace();
+                } catch (InstantiationException e1) {
+                    e1.printStackTrace();
+                } catch (IllegalAccessException e1) {
+                    e1.printStackTrace();
+                }
+
                 l1.setVisible(true);
             }
 
